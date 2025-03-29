@@ -5,7 +5,7 @@ This script tracks the **online time** of a Roblox player using **Rolimons**.
 ## 📌 Features  
 ✅ **Tracks online status** from [Rolimons](https://www.rolimons.com/).  
 ✅ **Updates total online time** every **10 seconds**.  
-✅ **User-controlled tracking** (Stop with `"finish"` or continue with `"k"`).  
+✅ **User-controlled tracking** (Stop with `"finish"`).  
 ✅ **Headless browser mode** (Runs in the background).  
 
 ## 🛠️ Setup Guide  
