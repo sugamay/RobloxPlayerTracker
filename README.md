@@ -27,7 +27,7 @@ enter roblox ID
 1️⃣ The script loads the Rolimons player page.
 2️⃣ It checks the "Online" status every 10 seconds.
 3️⃣ If the player is online, it adds time to the total.
-4️⃣ Stop tracking with "finish", or continue tracking with "k".
+4️⃣ Stop tracking with "finish".
 5️⃣ When stopped, it prints total online time.
 
 🔧 Troubleshooting
@@ -36,9 +36,9 @@ enter roblox ID
 ❌ Problem: Cannot find the player status.
 ✅ Solution: Update the XPath in the script:
 
-online_time_element = WebDriverWait(driver, 10).until(
-    EC.presence_of_element_located((By.XPATH, '//*[@id="player_online_status"]'))
-)
+game_status_element = WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.XPATH, '//*[@id="location_pane_last_location_non_link"]'))
+                )
 Chromedriver Version Error
 ❌ Problem: Chrome and Chromedriver versions mismatch.
 ✅ Solution: Update Chrome & re-download ChromeDriver.
